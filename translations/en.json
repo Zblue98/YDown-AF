@@ -1,0 +1,15 @@
+{
+    "app_name": "YouTube Downloader",
+    "scan_button": " Scan Video",
+    "download_button": " Download",
+    "select_folder": " Select Download Folder",
+    "folder_selected": "Folder selected: {path}",
+    "folder_not_selected": "Download folder not selected",
+    "error_scanning": "Error scanning video: {error}",
+    "download_complete": "Download completed!",
+    "download_error": "An error occurred during download.",
+    "no_thumbnail": "Thumbnail not available",
+    "loading_thumbnail": "Loading thumbnail...",
+    "select_quality": "Select a quality",
+    "video_info": "Title: {title}\nDuration: {duration}"
+}
