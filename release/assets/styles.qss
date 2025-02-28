@@ -1,0 +1,184 @@
+/* Estilo global para la ventana principal */
+QMainWindow {
+    background-color: #2d2d2d; /* Fondo oscuro */
+    color: #ffffff; /* Texto claro */
+    font-family: "Roboto", sans-serif; /* Fuente moderna */
+    
+}
+
+/* Estilo para etiquetas (QLabel) */
+QLabel {
+    color: #ffffff; /* Texto blanco */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+/* Estilo para campos de entrada (QLineEdit) */
+QLineEdit {
+    background-color: #3c3c3c; /* Fondo oscuro */
+    color: #ffffff; /* Texto claro */
+    border: 1px solid #4a4a4a; /* Borde sutil */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 8px; /* Espaciado interno */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+QLineEdit:focus {
+    border-color: #007acc; /* Resaltar al hacer foco */
+}
+
+/* Estilo para botones (QPushButton) */
+QPushButton {
+    background-color: #007acc; /* Azul moderno */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 12px 20px; /* Espaciado interno */
+    font-size: 16px; /* Fuente más grande */
+
+}
+
+QPushButton:hover {
+    background-color: #005f99; /* Azul más oscuro al pasar el mouse */
+}
+
+QPushButton:pressed {
+    background-color: #004b7a; /* Azul aún más oscuro al presionar */
+}
+
+/* Estilo para cuadros combinados (QComboBox) */
+    QComboBox {
+    background-color: #3c3c3c; /* Fondo oscuro */
+    color: #ffffff; /* Texto claro */
+    border: 1px solid #4a4a4a; /* Borde sutil */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 5px; /* Espaciado interno */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+QComboBox:hover {
+    border-color: #007acc; /* Resaltar al pasar el mouse */
+}
+
+QComboBox QAbstractItemView {
+    background-color: #3c3c3c; /* Fondo oscuro para el menú desplegable */
+    color: #ffffff; /* Texto claro */
+    border: 1px solid #4a4a4a; /* Borde del menú */
+    selection-background-color: #007acc; /* Color de fondo al seleccionar */
+}
+
+/* Estilo para la barra de progreso (QProgressBar) */
+    QProgressBar {
+    border: 1px solid #4a4a4a; /* Borde sutil */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center; /* Texto centrado */
+    color: #ffffff; /* Texto claro */
+    height: 20px; /* Altura de la barra */
+}
+
+QProgressBar::chunk {
+    background-color: #007acc; /* Color de la barra de progreso */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo para miniaturas (QLabel) */
+
+QLabel#thumbnail_label {
+    background-color: transparent; /* Sin fondo */
+    border: none; /* Sin borde */
+}
+
+/* Estilo para mensajes emergentes (QMessageBox) */
+    QMessageBox {
+    background-color: #2d2d2d; /* Fondo oscuro */
+    color: #ffffff; /* Texto claro */
+}
+
+QMessageBox QLabel {
+    color: #ffffff; /* Texto claro */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+
+/* Estilo para QComboBox (selectores de formato y calidad) */
+    QComboBox {
+    background-color: #3c3c3c; /* Fondo oscuro */
+    color: #ffffff; /* Texto claro */
+    border: 1px solid #4a4a4a; /* Borde sutil */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 8px; /* Espaciado interno */
+    font-size: 14px; /* Tamaño de fuente */
+    min-height: 35px; /* Altura mínima */
+}
+
+QComboBox:hover {
+    border-color: #007acc; /* Resaltar al pasar el mouse */
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: right center; /* Posición del botón desplegable */
+    width: 20px; /* Ancho del botón desplegable */
+    border-left: none; /* Sin borde izquierdo */
+}
+
+QComboBox::down-arrow {
+    image: url(assets/icons/down_arrow.png); /* Icono de flecha personalizado */
+    width: 12px;
+    height: 12px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #3c3c3c; /* Fondo oscuro para el menú desplegable */
+    color: #ffffff; /* Texto claro */
+    border: 1px solid #4a4a4a; /* Borde del menú */
+    selection-background-color: #007acc; /* Color de fondo al seleccionar */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 5px; /* Espaciado interno */
+}
+
+/* Estilo global para QDialog (ventana de información) */
+QDialog {
+    background-color: #2d2d2d; /* Fondo oscuro */
+    color: #ffffff; /* Texto claro */
+    font-family: "Segoe UI", sans-serif; /* Fuente moderna */
+    border: 1px solid #4a4a4a; /* Borde sutil */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilo específico para QLabel (texto de información) */
+QLabel {
+    color: #ffffff; /* Texto blanco */
+    font-size: 14px; /* Tamaño de fuente */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Estilo específico para el botón de cierre */
+QPushButton#close_button {
+    background-color: #007acc; /* Azul moderno */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Fuente más grande */
+    margin: 10px; /* Margen alrededor del botón */
+}
+
+QPushButton#close_button:hover {
+    background-color: #005f99; /* Azul más oscuro al pasar el mouse */
+}
+
+QPushButton#close_button:pressed {
+    background-color: #004b7a; /* Azul aún más oscuro al presionar */
+}
+
+/* Estilo para mensajes de éxito */
+QLabel.success {
+    color: green;
+    font-weight: bold;
+}
+
+/* Estilo para mensajes de error */
+QLabel.error {
+    color: red;
+    font-weight: bold;
+}

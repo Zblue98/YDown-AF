@@ -1,0 +1,15 @@
+{
+    "app_name": "YouTube Downloader",
+    "scan_button": " Escanear Video",
+    "download_button": " Descargar",
+    "select_folder": " Seleccionar Carpeta de Descarga",
+    "folder_selected": "Carpeta seleccionada: {path}",
+    "folder_not_selected": "Carpeta de descarga no seleccionada",
+    "error_scanning": "Error al escanear el video: {error}",
+    "download_complete": "¡Descarga completada!",
+    "download_error": "Ocurrió un error durante la descarga.",
+    "no_thumbnail": "Miniatura no disponible",
+    "loading_thumbnail": "Cargando miniatura...",
+    "select_quality": "Selecciona una calidad",
+    "video_info": "Título: {title}\nDuración: {duration}"
+}
