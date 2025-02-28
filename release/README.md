@@ -1,6 +1,6 @@
 ## Descargar la Versión Ejecutable
 
-Puedes descargar la versión ejecutable de **YDown-AF** desde la página de [releases](https://github.com/Zblue98/YDown-AF/tree/main/release).
+Puedes descargar la versión ejecutable de **YDown-AF** desde la página de [releases](https://github.com/Zblue98/YDown-AF/tree/master/release).
 
 ### Instrucciones de Uso
 
