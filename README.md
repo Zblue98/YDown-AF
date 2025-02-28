@@ -98,6 +98,20 @@ Si deseas contribuir al proyecto, ¡eres bienvenido! Puedes:
 Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE.txt](LICENSE) para más detalles.
 
 ---
+## Descargar la Versión Ejecutable
+
+Puedes descargar la versión ejecutable de **YDown-AF** desde la página de [releases](https://github.com/Zblue98/YDown-AF/tree/master/release).
+
+### Instrucciones de Uso
+
+1. Descarga el archivo `YDown-AF.exe` desde la carpeta `release`.
+2. Ejecuta el archivo.
+3. Sigue las instrucciones en la interfaz gráfica para descargar videos o audios.
+
+## Notas
+
+- Asegúrate de seleccionar una carpeta de descarga válida antes de iniciar la descarga.
+- Si encuentras algún problema, consulta el [repositorio oficial](https://github.com/Zblue98/YDown-AF) para reportar errores.
 
 ### Notas Adicionales
 
@@ -105,3 +119,4 @@ Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE.txt](LICE
 - **Contacto**: Si tienes preguntas o comentarios, puedes contactarme en [alvis2100@gmail.com](mailto:alvis2100@gmail.com).
 
 ---
+
